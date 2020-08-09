@@ -29,7 +29,7 @@ function setup(){
     box8 = new Box(650,240,50,50);
     ball = new Ball(100,100);
     box9 = new Box(700,240,50,50);
-    slingshot = new SlingShot(ball.body,{x:200, y:200});
+    slingshot = new SlingShot(ball.body,{x:350, y:200});
 }
 
 function draw(){
